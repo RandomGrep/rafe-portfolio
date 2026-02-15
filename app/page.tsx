@@ -306,11 +306,6 @@ export default function Portfolio() {
                   </span>
                 </h1>
               </div>
-
-              <p className="text-lg lg:text-xl text-muted-foreground max-w-2xl">
-                Senior Manager | Risk Management | Cloud and DevSecOps
-              </p>
-
               <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground justify-center lg:justify-start">
                 <div className="flex items-center gap-2">
                   <Briefcase className="w-4 h-4" />
