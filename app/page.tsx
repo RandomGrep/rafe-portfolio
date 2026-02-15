@@ -60,7 +60,7 @@ export default function Portfolio() {
     window.addEventListener("mousemove", updateCursor);
 
     const interactiveElements = document.querySelectorAll(
-      "a, button, [role='button']"
+      "a, button, [role='button']",
     );
     interactiveElements.forEach((el) => {
       el.addEventListener("mouseenter", handleMouseEnter);
@@ -281,18 +281,23 @@ export default function Portfolio() {
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent rounded-full blur-2xl opacity-50 group-hover:opacity-75 transition-opacity"></div>
               <Avatar className="relative w-80 h-80 lg:w-80 lg:h-80 border-4 border-primary/50 shadow-2xl">
-  <AvatarImage className="w-76 h-86" src="/profile.png" alt="Sayed Md Rafe" />
-  <AvatarFallback className="text-7xl lg:text-9xl font-bold bg-gradient-to-br from-primary to-accent text-primary-foreground">
-    SR
-  </AvatarFallback>
-</Avatar>
+                <AvatarImage
+                  className="w-76 h-86"
+                  src="/profile.png"
+                  alt="Sayed Md Rafe"
+                />
+                <AvatarFallback className="text-7xl lg:text-9xl font-bold bg-gradient-to-br from-primary to-accent text-primary-foreground">
+                  SR
+                </AvatarFallback>
+              </Avatar>
             </div>
 
             <div className="flex-1 text-center lg:text-left space-y-6">
               <div className="space-y-2">
                 <p className="text-sm lg:text-base font-medium text-primary flex items-center gap-2 justify-center lg:justify-start">
                   <Shield className="w-4 h-4" />
-                  Cloud Security Consultant
+                  Seniors Manager-Risk Management-Cloud | DevSecOps | Cloud
+                  Security Engineer
                 </p>
                 <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight">
                   Sayed Md{" "}
@@ -466,61 +471,79 @@ export default function Portfolio() {
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                     <span>
-                      Manage cloud risk governance across AWS, Azure, and GCP, ensuring compliance with ISO 27001, NIST, CIS benchmarks, and RBI/IRDAI guidelines
+                      Manage cloud risk governance across AWS, Azure, and GCP,
+                      ensuring compliance with ISO 27001, NIST, CIS benchmarks,
+                      and RBI/IRDAI guidelines
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                     <span>
-                      Oversee cloud security posture management using Prisma Cloud and Wiz, identifying misconfigurations and driving risk reduction
+                      Oversee cloud security posture management using Prisma
+                      Cloud and Wiz, identifying misconfigurations and driving
+                      risk reduction
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                     <span>
-                      Review and approve secure cloud architecture designs, including IAM, network security, encryption, and logging controls
+                      Review and approve secure cloud architecture designs,
+                      including IAM, network security, encryption, and logging
+                      controls
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                     <span>
-                      Ensure security controls are integrated into CI/CD pipelines and conduct mandatory pre-go-live security assessments
+                      Ensure security controls are integrated into CI/CD
+                      pipelines and conduct mandatory pre-go-live security
+                      assessments
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                     <span>
-                      Manage vulnerability scanning and remediation across cloud workloads, containers, and applications, ensuring closure within defined timelines
+                      Manage vulnerability scanning and remediation across cloud
+                      workloads, containers, and applications, ensuring closure
+                      within defined timelines
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                     <span>
-                      Oversee web and API security controls, including WAF governance using F5 Networks, bot protection, and exposure monitoring
+                      Oversee web and API security controls, including WAF
+                      governance using F5 Networks, bot protection, and exposure
+                      monitoring
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                     <span>
-                      Monitor and improve cloud compliance posture using Microsoft Defender for Cloud and native security services
+                      Monitor and improve cloud compliance posture using
+                      Microsoft Defender for Cloud and native security services
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                     <span>
-                      Support AI security governance by assessing risks related to model misuse, prompt injection, data leakage, and secure AI deployment
+                      Support AI security governance by assessing risks related
+                      to model misuse, prompt injection, data leakage, and
+                      secure AI deployment
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                     <span>
-                      Coordinate with DevOps, infrastructure, SOC, and GRC teams to ensure consistent implementation of security controls
+                      Coordinate with DevOps, infrastructure, SOC, and GRC teams
+                      to ensure consistent implementation of security controls
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                     <span>
-                      Support internal and external audits by providing cloud security evidence, risk reports, and timely remediation of observations
+                      Support internal and external audits by providing cloud
+                      security evidence, risk reports, and timely remediation of
+                      observations
                     </span>
                   </li>
                 </ul>
