@@ -25,6 +25,14 @@ export const metadata: Metadata = {
     "Security Automation"
   ],
   authors: [{ name: "Sayed Md Rafe" }],
+  icons: {
+    icon: [
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [
+      { url: "/icon.png", sizes: "180x180" },
+    ],
+  },
   openGraph: {
     title: "Sayed Md Rafe | DevSecOps & Cloud Security Consultant",
     description: "Senior Cloud Security Consultant at KPMG India specializing in multi-cloud security, DevSecOps automation, and compliance",

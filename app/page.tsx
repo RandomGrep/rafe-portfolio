@@ -280,12 +280,12 @@ export default function Portfolio() {
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent rounded-full blur-2xl opacity-50 group-hover:opacity-75 transition-opacity"></div>
-              <Avatar className="relative w-48 h-48 lg:w-64 lg:h-64 border-4 border-primary/50 shadow-2xl">
-                <AvatarImage src="/profile.jpg" alt="Sayed Md Rafe" />
-                <AvatarFallback className="text-6xl lg:text-8xl font-bold bg-gradient-to-br from-primary to-accent text-primary-foreground">
-                  SR
-                </AvatarFallback>
-              </Avatar>
+              <Avatar className="relative w-80 h-80 lg:w-80 lg:h-80 border-4 border-primary/50 shadow-2xl">
+  <AvatarImage className="w-76 h-86" src="/profile.png" alt="Sayed Md Rafe" />
+  <AvatarFallback className="text-7xl lg:text-9xl font-bold bg-gradient-to-br from-primary to-accent text-primary-foreground">
+    SR
+  </AvatarFallback>
+</Avatar>
             </div>
 
             <div className="flex-1 text-center lg:text-left space-y-6">
@@ -433,7 +433,7 @@ export default function Portfolio() {
                     <div className="flex items-center gap-3">
                       <div className="lg:hidden w-12 h-12 rounded-full bg-white flex items-center justify-center shadow-md overflow-hidden">
                         <Image
-                          src="/icici-lombard-logo.png"
+                          src="/icici-lombard-logo.jpg"
                           alt="ICICI Lombard"
                           width={48}
                           height={48}
